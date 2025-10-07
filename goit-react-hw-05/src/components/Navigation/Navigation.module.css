@@ -1,0 +1,27 @@
+.navigation {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.link {
+  text-decoration: none;
+  color: #6c757d;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  color: #007bff;
+  background-color: #e9ecef;
+}
+
+.active {
+  color: #007bff;
+  background-color: #e7f3ff;
+  border: 1px solid #007bff;
+}

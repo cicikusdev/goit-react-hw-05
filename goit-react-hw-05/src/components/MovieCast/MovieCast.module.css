@@ -1,0 +1,81 @@
+.castContainer {
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.castList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.castMember {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.castMember:hover {
+  transform: translateY(-2px);
+}
+
+.actorPhoto {
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+  background-color: #f8f9fa;
+}
+
+.actorInfo {
+  padding: 16px;
+  text-align: center;
+}
+
+.actorName {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 8px 0;
+  line-height: 1.3;
+}
+
+.character {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+  font-style: italic;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+  padding: 20px;
+}
+
+.error {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #dc3545;
+  padding: 20px;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 8px;
+}
+
+.noCast {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
